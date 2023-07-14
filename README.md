@@ -1,4 +1,4 @@
-![Next js + Saleor (1)](https://user-images.githubusercontent.com/44495184/210545042-0537d49f-6ab8-4e52-af75-225370789c2b.png)
+![Next.js App Router + Saleor](https://user-images.githubusercontent.com/44495184/210545042-0537d49f-6ab8-4e52-af75-225370789c2b.png)
 
 <div align="center">
   <h1>Next.js (App Router) Starter</h1>
@@ -28,12 +28,8 @@
   <a href="https://saleor.io/blog/">📰 Blog</a>
   <span> • </span>
   <a href="https://twitter.com/getsaleor">🐦 Twitter</a>
-</div>
-
-<div align="center">
-  <a href="https://demo.saleor.io/">▶️ Demo</a>
-   <span> • </span>
-  <a href="https://githubbox.com/saleor/saleor-dashboard">🔎 Explore Code</a>
+  <span> • </span>
+  <a href="https://discord.gg/H52JTZAtSH">💬 Discord</a>
 </div>
 
 ## Motivation
@@ -58,8 +54,6 @@
 cp .env.example .env
 ```
 
-> Note: Currently, only `.env` is supported. `.env.local` and any other variation will not work with GraphQL Code Generator.
-
 3. Replace the `SALEOR_API_URL` environment variable with the address of your Saleor instance.
 
 4. Install the dependencies:
@@ -79,3 +73,5 @@ pnpm generate
 ```bash
 pnpm dev
 ```
+
+7. Enjoy! 🎉
