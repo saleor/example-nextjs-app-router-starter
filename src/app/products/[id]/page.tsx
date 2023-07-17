@@ -27,7 +27,7 @@ export default async function Page({ params }: { params: { id: string } }) {
 		query: ProductDocument,
 		variables: {
 			channel: "default-channel",
-			id: params.id,
+			id: decodeURIComponent(params.id),
 		},
 	});
 
