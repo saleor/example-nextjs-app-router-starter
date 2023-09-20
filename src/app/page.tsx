@@ -27,7 +27,7 @@ export default async function Page() {
 									<Image
 										width={256}
 										height={256}
-										alt={product.thumbnail.alt || ""}
+										alt={product.thumbnail.alt ?? ""}
 										src={product.thumbnail.url}
 										className="h-full w-full object-cover object-center p-4 hover:scale-105"
 									/>

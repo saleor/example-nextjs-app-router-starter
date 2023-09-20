@@ -1,10 +1,12 @@
-const { hostname } = new URL(process.env.SALEOR_API_URL);
+try {
+	var url = new URL(process.env.SALEOR_API_URL);
+} catch {}
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	reactStrictMode: true,
 	images: {
-		domains: [hostname],
+		domains: url ? [url.hostname] : [],
 	},
 };
 

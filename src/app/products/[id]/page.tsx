@@ -41,7 +41,7 @@ export default async function Page({ params }: { params: { id: string } }) {
 				<div className="rounded-md border bg-slate-50">
 					{product.thumbnail && (
 						<Image
-							alt={product.thumbnail.alt || ""}
+							alt={product.thumbnail.alt ?? ""}
 							src={product.thumbnail.url}
 							width={256}
 							height={256}

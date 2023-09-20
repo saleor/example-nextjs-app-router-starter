@@ -1,8 +1,8 @@
 import type { TypedDocumentString } from "@/generated/graphql";
 
-type GraphQlError = {
+interface GraphQlError {
 	message: string;
-};
+}
 type GraphQlErrorRespone<T> = { data: T } | { errors: readonly GraphQlError[] };
 
 const endpoint = process.env.SALEOR_API_URL;
