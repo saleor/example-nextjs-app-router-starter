@@ -1,0 +1,16 @@
+{
+	"hello": "hello world",
+	"name": "hello {{fn}} {{ln}}",
+	"auth": {
+		"login": "login"
+	},
+	"comment_zero": "zero comment",
+	"comment_one": "a comment",
+	"comment_other": "{{count}} comments",
+	"comment_good_other": "{{count}} good comments",
+	"switch": "Language switching",
+	"title": "Title",
+	"description": "Description",
+	"counter_zero": "zero count",
+	"counter_other": "{{count}} counts"
+}
