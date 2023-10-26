@@ -8,6 +8,7 @@ export const metadata = {
 };
 
 export default async function Page() {
+
 	const data = await executeGraphQL({
 		query: ProductListDocument,
 		variables: {

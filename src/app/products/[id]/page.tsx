@@ -17,7 +17,7 @@ export async function generateStaticParams() {
 			first: 12,
 		},
 	});
-	const paths = products?.edges.map(({ node: { id } }) => ({ id }));
+	const paths = products?.edges.map(({ node: { id } }) => ({ id })) || [];
 
 	return paths;
 }
