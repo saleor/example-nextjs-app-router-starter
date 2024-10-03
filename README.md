@@ -34,6 +34,9 @@
   <a href="https://discord.gg/H52JTZAtSH">💬 Discord</a>
 </div>
 
+> [!TIP]
+> Questions or issues? Check our [discord](https://discord.gg/H52JTZAtSH) channel for help.
+
 ## Motivation
 
 🤏 **Bare bones**: Useful for prototyping or building your stack from scratch.
