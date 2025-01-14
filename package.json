@@ -2,6 +2,7 @@
 	"name": "example-nextjs-app-router-starter",
 	"version": "0.1.0",
 	"private": true,
+	"license": "BSD-3-Clause",
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
