@@ -34,8 +34,9 @@
   <a href="https://discord.gg/H52JTZAtSH">💬 Discord</a>
 </div>
 
-> [!TIP]
-> Questions or issues? Check our [discord](https://discord.gg/H52JTZAtSH) channel for help.
+> [!WARNING]
+> This repository is not longer maintained - go to https://github.com/saleor/examples for Saleor examples
+
 
 ## Motivation
 
